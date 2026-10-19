@@ -1,0 +1,21 @@
+# Node / Angular
+node_modules/
+.angular/
+dist/
+
+# Java / Spring Boot
+target/
+*.class
+*.jar
+
+# Python / ML
+venv/
+__pycache__/
+*.pyc
+*.csv
+*.pkl
+*.joblib
+
+# IDE
+.idea/
+.vscode/
