@@ -1,7 +1,7 @@
 import pandas as pd
 
 PATH = "data/paysim.csv"
-df = pd.read_csv(PATH)
+df =pd.read_csv(PATH)
 
 print("=== 1. Aperçu ===")
 print(df.shape)
