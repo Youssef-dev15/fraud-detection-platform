@@ -1,0 +1,19 @@
+{
+  "modelVersion": "1.0.0",
+  "trainedAt": "2026-10-26",
+  "dataset": "PaySim (synthétique)",
+  "features": [
+    "type",
+    "amount",
+    "oldbalanceOrg",
+    "oldbalanceDest"
+  ],
+  "sklearnVersion": "1.9.1",
+  "thresholds": {
+    "low": 0.4,
+    "high": 0.75
+  },
+  "metrics": {
+    "auc_pr": 0.9976
+  }
+}
